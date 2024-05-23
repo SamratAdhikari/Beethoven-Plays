@@ -33,7 +33,7 @@ play_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID,
 play_button.click()
 
 
-# Bypass adds
+# Bypass ads
 time.sleep(15)
 click(1198, 814)
 # Click the start button
